@@ -11,6 +11,9 @@ class DeliberationCreatedEvent extends DomainEvent
 {
     use DeliberationEventTrait;
 
+    /**
+     * @param array<mixed> $payload
+     */
     public function __construct(Deliberation $deliberation, array $payload)
     {
         parent::__construct();
