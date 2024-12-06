@@ -1,6 +1,8 @@
 # Deliberation for Town Hall Bundle
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Mairie/sulu-townhallbundle) [![Dependency](https://img.shields.io/badge/sulu-2.5-cca000.svg)](https://sulu.io/) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pixel-Mairie_sulu-townhallbundle&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pixel-Mairie_sulu-townhallbundle)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Mairie/sulu-townhalldeliberationbundle)
+[![Dependency](https://img.shields.io/badge/sulu-2.6-cca000.svg)](https://sulu.io/)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pixel-Mairie_sulu-townhalldeliberationbundle&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pixel-Mairie_sulu-townhalldeliberationbundle)
 
 ## Presentation
 A Sulu bundle to manage deliberations.
@@ -14,7 +16,6 @@ A Sulu bundle to manage deliberations.
 
 ## Requirement
 * PHP >= 8.1
-* Sulu >= 2.6
 * Symfony >= 5.4
 * Composer
 

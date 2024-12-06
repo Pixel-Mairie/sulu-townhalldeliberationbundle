@@ -1,0 +1,5 @@
+# Changelog
+
+1.0.0 (12/06/2024)
+
++ First release

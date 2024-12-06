@@ -1,0 +1,8 @@
+{
+  "townhall.deliberations": "Délibérations",
+  "sulu_activity.resource.deliberations": "Délibérations",
+  "sulu_activity.description.deliberations.created": "{userFullName} a créé la délibération \"{resourceTitle}\"",
+  "sulu_activity.description.deliberations.modified": "{userFullName} a modifié la délibération \"{resourceTitle}\"",
+  "sulu_activity.description.deliberations.removed": "{userFullName} a supprimé la délibération \"{resourceTitle}\"",
+  "sulu_activity.description.deliberations.restored": "{userFullName} a restauré la délibération \"{resourceTitle}\""
+}
