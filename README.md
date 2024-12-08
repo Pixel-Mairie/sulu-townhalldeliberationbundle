@@ -1,25 +1,31 @@
-# Deliberation for Town Hall Bundle
+<p align="center">
+<img src="src/Resources/documentation/logo.svg" width="250">
+</p>
+<h1 align="center">
+Deliberation for Town Hall Bundle
+</h1>
+<div align="center">
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Mairie/sulu-townhalldeliberationbundle)
-[![Dependency](https://img.shields.io/badge/sulu-2.6-cca000.svg)](https://sulu.io/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.2-green)](https://php.net/)
+[![Dependency](https://img.shields.io/badge/sulu-%3E%3D%202.6-green.svg)](https://sulu.io/)
+[![Dependency](https://img.shields.io/badge/symfony-%3E%3D%206.4-green.svg)](https://symfony.com//)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pixel-Mairie_sulu-townhalldeliberationbundle&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pixel-Mairie_sulu-townhalldeliberationbundle)
 
-## Presentation
+</div>
+
+## 📝 Presentation
 A Sulu bundle to manage deliberations.
 
-## Features
+## ✅ Features
 
 * Deliberation management
 * List of entities (via smart content)
 * Activity log
 * Trash
 
-## Requirement
-* PHP >= 8.1
-* Symfony >= 5.4
-* Composer
 
-## Installation
+## 🚀 Installation
 ### Install the bundle
 
 Execute the following [composer](https://getcomposer.org/) command to add the bundle to the dependencies of your
@@ -40,11 +46,6 @@ Enable the bundle by adding it to the list of registered bundles in the `config/
  ];
  ```
 
-### Update schema
-```shell script
-bin/console do:sch:up --force
-```
-
 ## Bundle Config
 
 Define the Admin Api Route in `routes_admin.yaml`
@@ -56,7 +57,7 @@ townhall.deiberations_api:
   name_prefix: townhall.
 ``` 
 
-## Use
+## 👍  Use
 ### Add/Edit
 Go to the "Town hall" section in the administration interface. Then, click on "Deliberation".
 To add, simply click on "Add". Fill the fields that are needed for your use.
@@ -86,7 +87,7 @@ To restore a deliberation, click on the clock at the left. Confirm the restore. 
 
 To remove permanently a deliberation, check all the deliberations you want to remove and click on "Delete".
 
-## Contributing
+## 🤝 Contributing
 
 You can contribute to this bundle. The only thing you must do is respect the coding standard we implement.
 You can find them in the `ecs.php` file.
