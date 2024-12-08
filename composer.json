@@ -1,7 +1,7 @@
 {
   "name": "pixelmairie/sulu-townhalldeliberationbundle",
   "type": "sulu-bundle",
-  "description": "Manage deliberation for town hall on Sulu",
+  "description": "Manage deliberation for town hall on Sulu CMS",
   "keywords": [
     "sulu",
     "suluCms"
@@ -14,9 +14,8 @@
     }
   ],
   "require": {
-    "php": "^8.1",
-    "sulu/automation-bundle": "^2.1",
-    "pixelmairie/sulu-townhallbundle": "^2.6",
+    "php": "^8.2",
+    "pixelmairie/sulu-townhallbundle": "^3.0",
     "sulu/sulu": "^2.6"
   },
   "require-dev": {
